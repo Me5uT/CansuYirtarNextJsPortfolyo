@@ -23,6 +23,8 @@ export const ServiceCard: React.FC<IServiceCardProps> = ({
     <Card
       sx={{
         maxWidth: 300,
+        padding: "10px",
+        margin: "10px",
         borderRadius: 5,
         backgroundColor: "#f4f4f4",
         border: "1px solid #f4f4f4",
@@ -33,7 +35,8 @@ export const ServiceCard: React.FC<IServiceCardProps> = ({
         alt={title}
         sx={{
           margin: "15px auto auto auto",
-          width: 100,
+          maxWidth: 100,
+          maxHeight: 100,
         }}
         image={getCardImages(imgUrl).toString()}
       />

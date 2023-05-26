@@ -7,7 +7,7 @@ import markericon from "../public/markericon.png";
 const position = [41.054613, 28.987294];
 
 const Map: React.FC = () => {
-  const icon = L.icon({ iconUrl: markericon as string, iconSize: [25, 41] });
+  const icon = L.icon({ iconUrl: markericon.toString(), iconSize: [25, 41] });
   return (
     <MapContainer
       center={position as LatLngExpression}

@@ -1,12 +1,29 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import { Metadata } from "next";
+
+// either Static metadata
+export const metadata: Metadata = {
+  description: "Psikolog Cansu Yırtar",
+  authors: { name: "Mesut Çağa" },
+  keywords: [
+    "psikolog",
+    "terapi",
+    "sağlık",
+    "psikanalitik",
+    "psikoterapi",
+    "online terapi",
+    "çocuk-aile terapisi",
+    "çift terapisi",
+  ],
+};
 
 interface ILayoutProps {
   children: React.ReactNode;
 }
 
-export const Layout: React.FC<ILayoutProps> = ({ children }) => {
+const Layout: React.FC<ILayoutProps> = ({ children }) => {
   return (
     <div className="container">
       <div className="main-content">
@@ -19,3 +36,4 @@ export const Layout: React.FC<ILayoutProps> = ({ children }) => {
     </div>
   );
 };
+export default Layout;

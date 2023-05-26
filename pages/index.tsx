@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import { HomeContent } from "../contents/Anasayfa";
+import { imageLoader } from "../components/ImageLoader";
 
 const Home: NextPage = () => {
   return (
@@ -12,11 +13,12 @@ const Home: NextPage = () => {
       <div className="home-inner-container">
         <div className="home-img__container profile-img__container">
           <Image
+            className="profile-img"
             src={"/profil.png"}
+            loader={imageLoader}
             width={500}
             height={500}
             alt="Cansu Yırtar profile"
-            className="profile-img"
           />
         </div>
         <div className="home-description-container">

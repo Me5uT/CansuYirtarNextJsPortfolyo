@@ -88,11 +88,7 @@ export const Navbar: React.FC<INavbarProps> = () => {
               navigate.push("/");
             }}
           >
-            <Avatar
-              alt="logo"
-              src={logo.toString()}
-              sx={{ marginRight: "15px" }}
-            />
+            <Avatar alt="logo" src={"/logo.svg"} sx={{ marginRight: "15px" }} />
           </Button>
 
           {/* Hamburger Menu */}

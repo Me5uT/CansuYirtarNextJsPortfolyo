@@ -7,7 +7,6 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import React from "react";
-
 import footerLogo from "../public/footerLogo.png";
 import { IRouteModel } from "../models/RouteModels";
 import dynamic from "next/dynamic";
@@ -21,8 +20,9 @@ interface IFooterProps {}
 
 const pages: IRouteModel[] = [
   { text: "Anasayfa", pathName: "/" },
-  { text: "Bloğum", pathName: "/posts" },
+  // { text: "Bloğum", pathName: "/posts" },
   { text: "Hizmetlerimiz", pathName: "/services" },
+  { text: "İletişim", pathName: "contact" },
   { text: "Hakkımda", pathName: "/about" },
 ];
 
@@ -52,7 +52,7 @@ export const Footer: React.FC<IFooterProps> = () => {
               navigate.push("/");
             }}
           >
-            <Avatar alt="footerlogo" src={footerLogo.toString()} />
+            <Avatar alt="footerlogo" src={"/footerLogo.png"} />
           </Button>
         </Box>
         {/* MENU */}
