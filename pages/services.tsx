@@ -35,7 +35,7 @@ const Services: React.FC<IServicesProps> = () => {
               imgUrl={content.imgUrl}
               description={content.description}
               onClick={() => {
-                navigate.push(content.imgUrl);
+                navigate.push(content.routeName);
               }}
             />
           );

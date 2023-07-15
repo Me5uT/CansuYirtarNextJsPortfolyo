@@ -870,7 +870,9 @@ p {
 
 .home-img__container {
   display: flex;
-  height: 75%;
+  width: 500px;
+  height: 500px;
+  /* height: 75%; */
 }
 @media (min-width: 1024px) {
   .home-img__container {
@@ -881,6 +883,7 @@ p {
 
 .home-description-container {
   display: flex;
+  justify-content: center;
 }
 @media (min-width: 1024px) {
   .home-description-container {
@@ -889,9 +892,16 @@ p {
   }
 }
 
+@media (max-width: 1024px) {
+  .home-description {
+    padding: 20px 0px;
+  }
+}
+
 .home-description {
   text-align: center;
   color: var(--body-text-color);
+  width: 80%;
 }
 
 .contact-cards {

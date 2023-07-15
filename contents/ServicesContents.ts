@@ -2,6 +2,7 @@ export interface IServicesContents {
   id: string;
   title: string;
   description: string;
+  routeName: string;
   imgUrl: string;
   subContent?: IServiceSubContent[];
 }
@@ -24,6 +25,7 @@ export const servicesContents: IServicesContents[] = [
     title: "Bireysel Terapi",
     description: `Bireysel terapi, kişinin psikolojik sorunlarına odaklanan bir tedavi yöntemidir. Bireysel terapide, bireylerin duygusal, davranışsal ve düşünsel açıdan sorunları ele alınır ve çözüme ulaştırmak için çeşitli psikoterapi teknikleri kullanılır. Bireysel terapi genellikle, depresyon, kaygı bozuklukları, yeme bozuklukları, bağımlılık ve kişisel gelişim gibi birçok psikolojik sorunun tedavisinde kullanılır. Terapi süresi ve sıklığı, bireyin ihtiyaçlarına ve terapistin yöntemine bağlı olarak değişebilir.`,
     imgUrl: "bireysel",
+    routeName: "",
     subContent: [
       {
         title: "Psikanalitik / Psikodinamik",
@@ -34,6 +36,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "2",
+    routeName: "",
     title: "Çift ve Aile Terapisi",
     description: `Çift ve aile terapisi, ilişki ve aile sorunlarına odaklanan bir terapi türüdür. Bu terapi türü, çiftler ve aileler arasındaki iletişim problemlerini, çatışmaları, güven eksikliğini, duygusal yaraları ve benzeri sorunları ele alır.
 
@@ -55,6 +58,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "3",
+    routeName: "",
     title: "Çocuk-Ergen Terapisi",
     description: `Çocuk-ergen terapisi, çocukların ve gençlerin zihinsel sağlığına odaklanan bir terapi türüdür. Bu terapi türü, çocukların yaşlarına ve gelişim düzeylerine uygun olarak yapılan özel bir tedavi sürecidir.
 
@@ -91,6 +95,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "4",
+    routeName: "",
     title: "Cinsel Terapi",
     description: `Cinsel terapi, cinsel işlev bozuklukları veya cinsel problemlerle ilgili olarak bireylerin veya çiftlerin yaşadıkları sorunlara yardımcı olmak için kullanılan bir terapi türüdür. Bu terapi, cinsel sorunların altında yatan nedenleri tespit etmek ve tedavi etmek için çeşitli teknikleri kullanır.
 
@@ -103,6 +108,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "5",
+    routeName: "",
     title: "Online Terapi",
     description: `Online terapi, internet üzerinden yapılan terapi seanslarıdır. Bu terapi türü, bireylerin terapistleriyle çevrimiçi olarak iletişim kurmalarına olanak sağlar. Online terapi, video konferans, telefon veya mesajlaşma gibi farklı yöntemler kullanılarak gerçekleştirilebilir.
 
@@ -115,6 +121,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "6",
+    routeName: "",
     title: "Psikolojik Testler",
     description: `Psikolojik testler, bireylerin zihinsel, duygusal ve davranışsal özelliklerini değerlendirmek için kullanılan ölçme araçlarıdır. Bu testler, bireylerin kişilik, zeka, zihinsel bozukluklar, duygusal durum, ilgi alanları, yetenekleri ve diğer psikolojik özellikleri hakkında bilgi toplamak için tasarlanmıştır.
 
@@ -127,6 +134,7 @@ export const servicesContents: IServicesContents[] = [
   },
   {
     id: "7",
+    routeName: "",
     title: "Kurumsal Danışmanlık",
     description: `Kurumsal psikolojik danışmanlık, bir işletmenin çalışanlarıyla ilgili psikolojik konularda danışmanlık hizmetleri sunan bir uzmanlık alanıdır. Bu hizmetler, işletmenin insan kaynakları yönetimi, liderlik geliştirme, stres yönetimi, takım çalışması, iş yükü yönetimi ve diğer psikolojik faktörlerle ilgili sorunlarını çözmeye yardımcı olur. Kurumsal psikolojik danışmanlık, işletmelerin çalışanların psikolojik sağlığına ve mutluluğuna önem vermesine yardımcı olarak işletmelerin performansını artırmalarına ve rekabet avantajı sağlamalarına yardımcı olur.`,
     imgUrl: "kurumsal",

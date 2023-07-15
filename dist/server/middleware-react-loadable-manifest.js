@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"..\\components\\Footer.tsx -> ../components/Map":{"id":"..\\components\\Footer.tsx -> ../components/Map","files":["static/chunks/components_Map_tsx.js"]}}

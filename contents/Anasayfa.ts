@@ -1,6 +1,7 @@
-export const HomeContent: string = `Hoş geldiniz! Ben Psikolog Cansu Yırtar. Bu blogda, psikoloji ile ilgili konulara değineceğim ve insanların psikolojik sağlıklarını korumalarına, zihinlerini geliştirmelerine ve daha mutlu bir hayat yaşamalarına yardımcı olmak için paylaşımlar yapacağım.
-Burada, stresle başa çıkmak, kaygıyı yönetmek, depresyondan kurtulmak, sağlıklı ilişkiler kurmak, kişisel gelişim sağlamak ve daha pek çok konuda faydalı bilgiler bulabileceksiniz.
-Ayrıca, psikoterapi ve danışmanlık hakkında da bilgi vereceğim. Eğer psikolojik sorunlarınız varsa veya kendinizi geliştirmek istiyorsanız, size yardımcı olabilecek yöntemler ve teknikler hakkında bilgi alabilirsiniz.
-Psikolojinin farklı alanları hakkında yazılar da paylaşacağım. Klinik psikoloji, gelişim psikolojisi, sosyal psikoloji, bilişsel psikoloji, nöropsikoloji, endüstriyel/örgütsel psikoloji ve spor psikolojisi gibi konulara da değineceğim.
-Amacım, insanların psikolojik sağlıklarını korumalarına ve yaşamlarını iyileştirmelerine yardımcı olmaktır. Blogumdaki paylaşımların sizin için faydalı olacağını umuyorum. İyi okumalar!
-`;
+export const HomeContent: string = `Hoş geldiniz! Ben Psikolog Cansu Yırtar ve burası, bilişsel ve duygusal sağlığınıza odaklanan bir psikoloji ağı.
+Uzmanlık alanlarım arasında depresyon, kaygı, stres yönetimi, fobi, obsesif-kompulsif bozukluk, kişilik bozuklukları, bipolar bozukluk, ilişki sorunları ve travma sonrası stres bozukluğu bulunmaktadır.
+Psikoterapi nedir? Psikoterapiye başlamadan önce bilinmesi gerekenler nelerdir?
+Psikoterapi, yalnızca belirli bir sorunu olanların tercih ettiği bir yöntem değildir. Herhangi bir belirgin sorununuz olmasa bile terapiye başlayabilirsiniz. Bazen anlık olarak ortaya çıkan belirtiler, aslında sürekli var olan içsel dinamiklerin yansımalarıdır. Terapi, bu içsel dinamikleri anlamamıza yardımcı olur ve daha derin bir farkındalık sağlar.
+Terapi, kendimizle ilgili farkındalık kazanmamızı ve içsel bir anlayış geliştirmemizi sağlar.
+İlişkilerimizi nasıl kurduğumuzu ve kimlerle olduğumuzu anlamamıza yardımcı olur, aynı zamanda içimizdeki potansiyeli ortaya çıkarır.
+Unutmayın, bir uzmanla çalışmak zayıflık değil, kendi bakımınız için önemli bir adımdır.`;
